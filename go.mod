@@ -1,7 +1,9 @@
 module github.com/jesseduffield/lazygit
 
+go 1.15
+
 require (
-	github.com/aws/aws-sdk-go v1.15.21
+	github.com/aws/aws-sdk-go v1.37.8
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
 	github.com/cloudfoundry/jibber_jabber v0.0.0-20151120183258-bcc4c8345a21
 	github.com/davecgh/go-spew v1.1.0
@@ -20,7 +22,7 @@ require (
 	github.com/jesseduffield/go-getter v0.0.0-20180822080847-906e15686e63
 	github.com/jesseduffield/gocui v0.0.0-20180921065632-03e26ff3f1de
 	github.com/jesseduffield/termbox-go v0.0.0-20180919093808-1e272ff78dcb
-	github.com/jmespath/go-jmespath v0.0.0-20160202185014-0b12d6b521d8
+	github.com/jmespath/go-jmespath v0.4.0
 	github.com/kardianos/osext v0.0.0-20170510131534-ae77be60afb1
 	github.com/kevinburke/ssh_config v0.0.0-20180317175531-9fc7bb800b55
 	github.com/magiconair/properties v1.8.0
@@ -34,7 +36,7 @@ require (
 	github.com/nicksnyder/go-i18n v0.0.0-20180803040939-a16b91a3ba80
 	github.com/pelletier/go-buffruneio v0.2.0
 	github.com/pelletier/go-toml v1.2.0
-	github.com/pkg/errors v0.8.0
+	github.com/pkg/errors v0.9.1
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/sergi/go-diff v1.0.0
 	github.com/shibukawa/configdir v0.0.0-20170330084843-e180dbdc8da0
@@ -51,12 +53,12 @@ require (
 	github.com/tcnksm/go-gitconfig v0.1.2
 	github.com/ulikunitz/xz v0.5.4
 	github.com/xanzy/ssh-agent v0.2.0
-	golang.org/x/crypto v0.0.0-20180808211826-de0752318171
-	golang.org/x/net v0.0.0-20180811021610-c39426892332
-	golang.org/x/sys v0.0.0-20180810173357-98c5dad5d1a0
-	golang.org/x/text v0.3.0
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
+	golang.org/x/sys v0.0.0-20200930185726-fdedc70b468f
+	golang.org/x/text v0.3.3
 	gopkg.in/src-d/go-billy.v4 v4.2.0
 	gopkg.in/src-d/go-git.v4 v4.0.0-20180807092216-43d17e14b714
 	gopkg.in/warnings.v0 v0.1.2
-	gopkg.in/yaml.v2 v2.2.1
+	gopkg.in/yaml.v2 v2.2.8
 )
