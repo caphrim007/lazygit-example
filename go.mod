@@ -1,10 +1,12 @@
 module github.com/jesseduffield/lazygit
 
+go 1.15
+
 require (
 	github.com/aws/aws-sdk-go v1.15.21
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
 	github.com/cloudfoundry/jibber_jabber v0.0.0-20151120183258-bcc4c8345a21
-	github.com/davecgh/go-spew v1.1.0
+	github.com/davecgh/go-spew v1.1.1
 	github.com/emirpasic/gods v1.9.0
 	github.com/fatih/color v1.7.0
 	github.com/fsnotify/fsnotify v1.4.7
@@ -15,7 +17,7 @@ require (
 	github.com/hashicorp/go-safetemp v0.0.0-20180326211150-b1a1dbde6fdc
 	github.com/hashicorp/go-version v1.0.0
 	github.com/hashicorp/hcl v0.0.0-20180404174102-ef8a98b0bbce
-	github.com/heroku/rollrus v0.0.0-20180515183152-fc0cef2ff331
+	github.com/heroku/rollrus v0.2.0
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99
 	github.com/jesseduffield/go-getter v0.0.0-20180822080847-906e15686e63
 	github.com/jesseduffield/gocui v0.0.0-20180921065632-03e26ff3f1de
@@ -34,11 +36,11 @@ require (
 	github.com/nicksnyder/go-i18n v0.0.0-20180803040939-a16b91a3ba80
 	github.com/pelletier/go-buffruneio v0.2.0
 	github.com/pelletier/go-toml v1.2.0
-	github.com/pkg/errors v0.8.0
+	github.com/pkg/errors v0.8.2-0.20190227000051-27936f6d90f9
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/sergi/go-diff v1.0.0
 	github.com/shibukawa/configdir v0.0.0-20170330084843-e180dbdc8da0
-	github.com/sirupsen/logrus v1.0.6
+	github.com/sirupsen/logrus v1.4.2
 	github.com/spf13/afero v1.1.1
 	github.com/spf13/cast v1.2.0
 	github.com/spf13/jwalterweatherman v0.0.0-20180814060501-14d3d4c51834
@@ -46,14 +48,14 @@ require (
 	github.com/spf13/viper v1.1.0
 	github.com/spkg/bom v0.0.0-20160624110644-59b7046e48ad
 	github.com/src-d/gcfg v1.3.0
-	github.com/stretchr/testify v1.2.2
+	github.com/stretchr/testify v1.3.0
 	github.com/stvp/roll v0.0.0-20170522205222-3627a5cbeaea
 	github.com/tcnksm/go-gitconfig v0.1.2
 	github.com/ulikunitz/xz v0.5.4
 	github.com/xanzy/ssh-agent v0.2.0
 	golang.org/x/crypto v0.0.0-20180808211826-de0752318171
 	golang.org/x/net v0.0.0-20180811021610-c39426892332
-	golang.org/x/sys v0.0.0-20180810173357-98c5dad5d1a0
+	golang.org/x/sys v0.0.0-20190804053845-51ab0e2deafa
 	golang.org/x/text v0.3.0
 	gopkg.in/src-d/go-billy.v4 v4.2.0
 	gopkg.in/src-d/go-git.v4 v4.0.0-20180807092216-43d17e14b714
