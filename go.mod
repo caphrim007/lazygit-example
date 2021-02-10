@@ -1,5 +1,7 @@
 module github.com/jesseduffield/lazygit
 
+go 1.15
+
 require (
 	github.com/aws/aws-sdk-go v1.15.21
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
@@ -7,7 +9,7 @@ require (
 	github.com/davecgh/go-spew v1.1.0
 	github.com/emirpasic/gods v1.9.0
 	github.com/fatih/color v1.7.0
-	github.com/fsnotify/fsnotify v1.4.7
+	github.com/fsnotify/fsnotify v1.4.9
 	github.com/go-ini/ini v1.38.2
 	github.com/golang-collections/collections v0.0.0-20130729185459-604e922904d3
 	github.com/hashicorp/go-cleanhttp v0.0.0-20171218145408-d5fe4b57a186
@@ -53,7 +55,7 @@ require (
 	github.com/xanzy/ssh-agent v0.2.0
 	golang.org/x/crypto v0.0.0-20180808211826-de0752318171
 	golang.org/x/net v0.0.0-20180811021610-c39426892332
-	golang.org/x/sys v0.0.0-20180810173357-98c5dad5d1a0
+	golang.org/x/sys v0.0.0-20191005200804-aed5e4c7ecf9
 	golang.org/x/text v0.3.0
 	gopkg.in/src-d/go-billy.v4 v4.2.0
 	gopkg.in/src-d/go-git.v4 v4.0.0-20180807092216-43d17e14b714
