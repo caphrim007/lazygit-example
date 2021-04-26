@@ -1,5 +1,7 @@
 module github.com/jesseduffield/lazygit
 
+go 1.16
+
 require (
 	github.com/aws/aws-sdk-go v1.15.21
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
@@ -20,7 +22,7 @@ require (
 	github.com/jesseduffield/go-getter v0.0.0-20180822080847-906e15686e63
 	github.com/jesseduffield/gocui v0.0.0-20180921065632-03e26ff3f1de
 	github.com/jesseduffield/termbox-go v0.0.0-20180919093808-1e272ff78dcb
-	github.com/jmespath/go-jmespath v0.0.0-20160202185014-0b12d6b521d8
+	github.com/jmespath/go-jmespath v0.4.0
 	github.com/kardianos/osext v0.0.0-20170510131534-ae77be60afb1
 	github.com/kevinburke/ssh_config v0.0.0-20180317175531-9fc7bb800b55
 	github.com/magiconair/properties v1.8.0
@@ -58,5 +60,5 @@ require (
 	gopkg.in/src-d/go-billy.v4 v4.2.0
 	gopkg.in/src-d/go-git.v4 v4.0.0-20180807092216-43d17e14b714
 	gopkg.in/warnings.v0 v0.1.2
-	gopkg.in/yaml.v2 v2.2.1
+	gopkg.in/yaml.v2 v2.2.8
 )
