@@ -1,5 +1,7 @@
 module github.com/jesseduffield/lazygit
 
+go 1.16
+
 require (
 	github.com/aws/aws-sdk-go v1.15.21
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
@@ -25,7 +27,7 @@ require (
 	github.com/kevinburke/ssh_config v0.0.0-20180317175531-9fc7bb800b55
 	github.com/magiconair/properties v1.8.0
 	github.com/mattn/go-colorable v0.0.9
-	github.com/mattn/go-isatty v0.0.3
+	github.com/mattn/go-isatty v0.0.13
 	github.com/mattn/go-runewidth v0.0.2
 	github.com/mgutz/str v1.2.0
 	github.com/mitchellh/go-homedir v0.0.0-20180801233206-58046073cbff
@@ -53,7 +55,7 @@ require (
 	github.com/xanzy/ssh-agent v0.2.0
 	golang.org/x/crypto v0.0.0-20180808211826-de0752318171
 	golang.org/x/net v0.0.0-20180811021610-c39426892332
-	golang.org/x/sys v0.0.0-20180810173357-98c5dad5d1a0
+	golang.org/x/sys v0.0.0-20200116001909-b77594299b42
 	golang.org/x/text v0.3.0
 	gopkg.in/src-d/go-billy.v4 v4.2.0
 	gopkg.in/src-d/go-git.v4 v4.0.0-20180807092216-43d17e14b714
