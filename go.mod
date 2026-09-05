@@ -1,5 +1,7 @@
 module github.com/jesseduffield/lazygit
 
+go 1.27.1
+
 require (
 	github.com/aws/aws-sdk-go v1.15.21
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
@@ -26,7 +28,7 @@ require (
 	github.com/magiconair/properties v1.8.0
 	github.com/mattn/go-colorable v0.0.9
 	github.com/mattn/go-isatty v0.0.3
-	github.com/mattn/go-runewidth v0.0.2
+	github.com/mattn/go-runewidth v0.0.29
 	github.com/mgutz/str v1.2.0
 	github.com/mitchellh/go-homedir v0.0.0-20180801233206-58046073cbff
 	github.com/mitchellh/go-testing-interface v0.0.0-20171004221916-a61a99592b77
@@ -59,4 +61,9 @@ require (
 	gopkg.in/src-d/go-git.v4 v4.0.0-20180807092216-43d17e14b714
 	gopkg.in/warnings.v0 v0.1.2
 	gopkg.in/yaml.v2 v2.2.1
+)
+
+require (
+	github.com/clipperhouse/uax29/v2 v2.2.0 // indirect
+	gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 // indirect
 )
