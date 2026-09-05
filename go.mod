@@ -1,5 +1,7 @@
 module github.com/jesseduffield/lazygit
 
+go 1.27.1
+
 require (
 	github.com/aws/aws-sdk-go v1.15.21
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
@@ -40,7 +42,7 @@ require (
 	github.com/shibukawa/configdir v0.0.0-20170330084843-e180dbdc8da0
 	github.com/sirupsen/logrus v1.0.6
 	github.com/spf13/afero v1.1.1
-	github.com/spf13/cast v1.2.0
+	github.com/spf13/cast v1.10.0
 	github.com/spf13/jwalterweatherman v0.0.0-20180814060501-14d3d4c51834
 	github.com/spf13/pflag v1.0.2
 	github.com/spf13/viper v1.1.0
@@ -59,4 +61,15 @@ require (
 	gopkg.in/src-d/go-git.v4 v4.0.0-20180807092216-43d17e14b714
 	gopkg.in/warnings.v0 v0.1.2
 	gopkg.in/yaml.v2 v2.2.1
+)
+
+require (
+	github.com/creack/pty v1.1.9 // indirect
+	github.com/frankban/quicktest v1.14.6 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/kr/pretty v0.3.1 // indirect
+	github.com/kr/text v0.2.0 // indirect
+	github.com/pkg/diff v0.0.0-20210226163009-20ebb0f2a09e // indirect
+	github.com/rogpeppe/go-internal v1.9.0 // indirect
+	gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 // indirect
 )
