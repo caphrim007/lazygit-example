@@ -1,5 +1,7 @@
 module github.com/jesseduffield/lazygit
 
+go 1.27.1
+
 require (
 	github.com/aws/aws-sdk-go v1.15.21
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
@@ -49,7 +51,7 @@ require (
 	github.com/stretchr/testify v1.2.2
 	github.com/stvp/roll v0.0.0-20170522205222-3627a5cbeaea
 	github.com/tcnksm/go-gitconfig v0.1.2
-	github.com/ulikunitz/xz v0.5.4
+	github.com/ulikunitz/xz v0.5.16
 	github.com/xanzy/ssh-agent v0.2.0
 	golang.org/x/crypto v0.0.0-20180808211826-de0752318171
 	golang.org/x/net v0.0.0-20180811021610-c39426892332
@@ -60,3 +62,5 @@ require (
 	gopkg.in/warnings.v0 v0.1.2
 	gopkg.in/yaml.v2 v2.2.1
 )
+
+require gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 // indirect
