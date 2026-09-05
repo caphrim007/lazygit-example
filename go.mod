@@ -1,11 +1,13 @@
 module github.com/jesseduffield/lazygit
 
+go 1.27.1
+
 require (
 	github.com/aws/aws-sdk-go v1.15.21
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
 	github.com/cloudfoundry/jibber_jabber v0.0.0-20151120183258-bcc4c8345a21
 	github.com/davecgh/go-spew v1.1.0
-	github.com/emirpasic/gods v1.9.0
+	github.com/emirpasic/gods v1.18.1
 	github.com/fatih/color v1.7.0
 	github.com/fsnotify/fsnotify v1.4.7
 	github.com/go-ini/ini v1.38.2
@@ -60,3 +62,5 @@ require (
 	gopkg.in/warnings.v0 v0.1.2
 	gopkg.in/yaml.v2 v2.2.1
 )
+
+require gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 // indirect
