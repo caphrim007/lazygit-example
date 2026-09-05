@@ -1,5 +1,7 @@
 module github.com/jesseduffield/lazygit
 
+go 1.27.1
+
 require (
 	github.com/aws/aws-sdk-go v1.15.21
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
@@ -23,7 +25,7 @@ require (
 	github.com/jmespath/go-jmespath v0.0.0-20160202185014-0b12d6b521d8
 	github.com/kardianos/osext v0.0.0-20170510131534-ae77be60afb1
 	github.com/kevinburke/ssh_config v0.0.0-20180317175531-9fc7bb800b55
-	github.com/magiconair/properties v1.8.0
+	github.com/magiconair/properties v1.18.11
 	github.com/mattn/go-colorable v0.0.9
 	github.com/mattn/go-isatty v0.0.3
 	github.com/mattn/go-runewidth v0.0.2
@@ -60,3 +62,5 @@ require (
 	gopkg.in/warnings.v0 v0.1.2
 	gopkg.in/yaml.v2 v2.2.1
 )
+
+require gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 // indirect
